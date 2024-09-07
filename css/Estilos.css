@@ -37,6 +37,9 @@ header li:hover{
 }
 body {
     font-family:Arial;
+    background:url(../images/fondo.jpg);
+    background-size:cover;
+    background-position:center;
 }
 .cuerpo{
     display:flex;
@@ -104,4 +107,7 @@ input,textarea{
 }
 .btn:hover{
     background-color:#0026ff;
+}
+.text-color{
+    color:white;
 }
