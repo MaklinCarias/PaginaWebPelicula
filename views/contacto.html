@@ -5,16 +5,70 @@
     <meta charset="utf-8" />
     <title>Contacto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Estilos.css">
 </head>
 <body>
-    <h1>Contacto</h1>
+    <main>
+        <h1>Contacto</h1>
+    </main>
+    <header>
+        <ul>
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="tematica.html"> Tematica </a> </li>
+            <li> <a href="acercade.html"> Acerca de </a> </li>
+            <li> <a href="contacto.html"> Contacto </a> </li>
+        </ul>
+    </header>
+    <br />
+    <br />
+    <div class="cuerpo">
 
-    <ul>
-        <li> <a href="../index.html"> Inicio </a> </li>
-        <li> <a href="tematica.html"> Tematica </a> </li>
-        <li> <a href="acercade.html"> Acerca de </a> </li>
-        <li> <a href="contacto.html"> Contacto </a> </li>
-    </ul>
+        <form>
+            <h2>Formularios</h2>
+            <br />
+
+            <div class="input-group">
+                <label>Nombre completo:</label>
+                <br>
+                <input type="text" id="txtNombre" required>
+                <br>
+                <br>
+
+                <label>Correo:</label>
+                <br>
+                <input type="email" id="txtCorreo" placeholder="nombre@email.com" required>
+                <br>
+                <br>
+
+                <label>Fecha:</label>
+                <br>
+                <input type="date" id="txtFecha" required>
+                <br>
+                <br>
+
+                <label>¿Que te parecio la pelicula?:</label>
+                <br>
+                <textarea id="txtMensaje" rows="3" cols="60" required></textarea>
+                <br>
+                <br>
+
+                <main>
+                    <button class="btn" typeof="button">Enviar</button> 
+                </main>
+            </div>
+
+        </form>
+
+    </div>
+    <br />
+    <br />
+
+    <footer>
+        <br />
+
+        Derechos reservados  &copy; 2024
+    </footer>
+
 
 </body>
 </html>
